@@ -11,8 +11,8 @@
 ### Execution
 
 ```sh
-python3 -m http.server 8080
+python3 server.py 8080
 ```
 
-- 이후 `http://localhost:8080/housing/umap/model.h5` 와 `http://localhost:8080/shopping/model.h5` 주소로 각각의 모델에 접근 가능 
+- 이후 `http://localhost:8080/housing/umap/model.json` 와 `http://localhost:8080/shopping/model.json` 주소로 각각의 모델에 접근 가능 
 - 자세한 설명은 `naver-databox-front` 레포지토리의 README 참조
